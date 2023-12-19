@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer'
 
 function Body() {
   return (
@@ -7,7 +6,7 @@ function Body() {
          <div data-aos="fade-up" data-aos-anchor-placement="top-center" className='row detail1 d-flex justify-content-around align-items-center'>
                 
                 <div  className='text-center col-xl-6'>
-                    <img src="/images/image 2.png" alt="Image"/>
+                    <img src="/images/image 2.png" alt="web&mobile"/>
                 </div>
                 <div className='col-xl-6'>
                     <h3 className='header3'>Web & Mobile App Development</h3>
@@ -28,7 +27,7 @@ function Body() {
                     <button type="button" className="btn">Learn more</button>
                 </div>
                 
-                    <img className='img-fluid' width='550' src="/images/image 1.png" alt="Image"/>
+                    <img className='img-fluid' width='550' src="/images/image 1.png" alt="digital strategy"/>
                 
             </div>
             

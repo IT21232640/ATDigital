@@ -9,7 +9,7 @@ const Footer = ()=> {
       <div class="row mt-3">
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 my-5">
           <h6 class="text-uppercase fw-bold mb-4">
-            <img src="/images/logo.png"></img>
+            <img src="/images/logo.png" alt='logo'></img>
           </h6>
           <p>
           Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.
@@ -66,10 +66,10 @@ const Footer = ()=> {
         <hr></hr>
         <div className='row'>
           <div className='col-xl-6 text-end'>
-            <a>Privacy Policy</a>
+            <p>Privacy Policy</p>
           </div>
           <div className='col-xl-6 text-start'>
-            <a>| &nbsp; &nbsp;  Terms & Conditions</a>
+            <p>| &nbsp; &nbsp;  Terms & Conditions</p>
           </div>
         </div>
     </div>

@@ -1,7 +1,6 @@
 // import home from '../../public/images/home1';
 import React from 'react'
 import './Home.css'
-import Header from './Header'
 
 const Home = ()=> {
     return(
