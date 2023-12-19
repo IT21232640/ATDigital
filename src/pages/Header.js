@@ -1,12 +1,13 @@
 // import home from '../../public/images/home1';
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 const Header = ()=> {
     return(
         <header className='header'>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><img src="/images/logo.png"></img></a>
+            <nav className="navbar navbar-expand-lg navbar-light">
+                <Link to = '/' class="navbar-brand"><img src="/images/logo.png" alt='logo'></img></Link>
             
             
             <button
@@ -21,19 +22,19 @@ const Header = ()=> {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class=" nav navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">SERVICES</a>
+            <div className="collapse navbar-collapse" id="navbarCollapse">
+                <ul className=" nav navbar-nav ms-auto">
+                <li className="nav-item active">
+                    <Link to = '/' class="nav-link">SERVICES</Link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
+                <li className="nav-item">
+                    <Link to = '/' class="nav-link">ABOUT US</Link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" > CONTACT US </a>
+                <li className="nav-item">
+                    <Link to = '/' class="nav-link" > CONTACT US </Link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CAREERS</a>
+                <li className="nav-item">
+                    <Link to = '/' class="nav-link">CAREERS</Link>
                 </li>
                 </ul>
               </div>
