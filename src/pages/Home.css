@@ -1,0 +1,78 @@
+
+
+.hero {
+    background-image: url('home1.png');
+    background-size: cover;
+    height: 100vh;
+    color: var(--white);
+    background-position: center;
+    display: flex;
+    align-items: end;
+  }
+
+
+/* .detail1 img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+} */
+
+.header3{
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #6B3CC9;
+
+}
+
+.btn, .btn:hover, .btn:active, .btn:visited{
+    background-color: #F28D35;    
+    color: #ffffff;
+}
+
+.card-body{
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    width: 80vh;
+    /* padding: 24px, 40px, 32px, 40px; */
+    /* gap: 20px; */
+
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+
+}
+
+.details2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.only-mobile {
+    display: none;
+   }
+   @media screen and (max-width: 767px) {
+    .only-mobile {
+      display: block;
+    }
+   }
+   .only-desktop {
+    display: block;
+   }
+   @media screen and (max-width: 767px) {
+    .only-desktop {
+      display: none;
+    }
+   }

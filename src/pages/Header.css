@@ -1,0 +1,21 @@
+.navbar{
+    background-color: #6B3CC9;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center;
+}
+
+.nav-link{
+    color: white;
+    float: right;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item{
+    margin-left: 15px;
+}
